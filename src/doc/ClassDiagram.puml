@@ -1,0 +1,46 @@
+@startuml
+class User{
+-idUser: long
+-username: String
+-email: String
+-birthDate: date
+-age: int
+}
+class Review{
+-like: boolean
+-review: String
+}
+class Game{
+-idGame: long
+-gameName: String
+-gameImage: String
+-gameTag: String
+-gamePlatform: String
+-releaseDate: date
+-gameSummary: String
+-ageRestriction: int
+}
+class Hero{
+-idHero: long
+-heroName: String
+-heroImage: String
+-heroSummary: String
+}
+class Editor{
+-idEditor: long
+-editorName: String
+-editorImage: String
+}
+class Developer{
+-idDeveloper: long
+-developerName: String
+-developerImage: String
+}
+'Class Diagram
+User "1" - "*" Review :"\t"
+Review "*" -- "1" Game :"\t"
+Game "1..*" -- "*" Hero :"\t"
+Game "1" - "*" Editor :"\t\t"
+Developer "*" - "1..*" Game :"\t\t"
+'hide circle
+@enduml
