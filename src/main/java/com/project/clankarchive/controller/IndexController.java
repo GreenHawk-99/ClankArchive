@@ -5,13 +5,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class IndexController {
-    @GetMapping(value = {"/home"})
+    @GetMapping(value = {"/","/home"})
     public String index(){
-        return "index/index";
+        return "page/index";
     }
 
     @GetMapping(value = {"/login", "/home/login"})
     public String login(){
-        return "index/login";
+        return "page/login";
     }
 }

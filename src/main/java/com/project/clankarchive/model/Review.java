@@ -18,9 +18,9 @@ public class Review {
     private String reviews;
 
     @ManyToOne
-    private User users;
+    private User user;
     @ManyToOne
-    private Game games;
+    private Game game;
 
     public Review(boolean like, String reviews) {
         this.like = like;

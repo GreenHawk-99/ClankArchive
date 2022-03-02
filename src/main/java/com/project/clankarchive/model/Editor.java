@@ -18,7 +18,7 @@ public class Editor {
     private String editorImage;
 
     @ManyToOne
-    private Game games;
+    private Game game;
 
     public Editor(String editorName, String editorImage) {
         this.editorName = editorName;

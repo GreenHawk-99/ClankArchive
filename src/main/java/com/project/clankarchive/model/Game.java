@@ -22,13 +22,13 @@ public class Game {
     private Date releaseDate;
     private int ageRestriction;
 
-    @OneToMany
+    @OneToMany(mappedBy = "game")
     private List<Review> reviews;
-    @ManyToMany
+    @ManyToMany(mappedBy = "games")
     private List<Hero> heroes;
-    @ManyToMany
+    @ManyToMany(mappedBy = "games")
     private List<Developer> developers;
-    @OneToMany
+    @OneToMany(mappedBy = "game")
     private List<Editor> editors;
 
     public Game(String gameName, String gameImage, String gameSummary, Date releaseDate, int ageRestriction) {

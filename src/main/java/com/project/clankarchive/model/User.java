@@ -22,7 +22,7 @@ public class User {
     private Date birthDate;
     private int age;
 
-    @OneToMany
+    @OneToMany(mappedBy = "user")
     private List<Review> reviews;
 
     public User(String username, String email, String password, Date birthDate, int age) {
