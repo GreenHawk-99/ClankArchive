@@ -3038,3 +3038,383 @@ alter table review add constraint FKlb5psdq54mm5ueaj63yb4rkcv foreign key (user_
 2022-03-02 21:46:13 database: disconnecting session #42
 2022-03-02 21:46:13 database: closing C:/Users/green/OneDrive/Bureau/WorkspaceHome/Projet/ClankArchive/data/ClankDB
 2022-03-02 21:46:13 database: closed
+2022-03-14 11:49:26 database: opening C:/Users/CDA/Desktop/Projet/ClankArchive/data/ClankDB (build 200)
+2022-03-14 11:49:26 database: opened C:/Users/CDA/Desktop/Projet/ClankArchive/data/ClankDB
+2022-03-14 11:49:26 database: connecting session #3 to C:/Users/CDA/Desktop/Projet/ClankArchive/data/ClankDB
+2022-03-14 11:49:26 jdbc[3]: 
+/*SQL */SET DB_CLOSE_DELAY -1;
+2022-03-14 11:49:26 jdbc[3]: 
+/*SQL */SET AUTO_SERVER TRUE;
+2022-03-14 11:49:26 jdbc[3]: 
+/*SQL */SET TRACE_LEVEL_SYSTEM_OUT 2;
+2022-03-14 11:49:26 jdbc[3]: 
+/*SQL */SET TRACE_LEVEL_FILE 2;
+2022-03-14 11:49:26 jdbc[3]: 
+/**/Connection conn1 = DriverManager.getConnection("jdbc:h2:file:./data/ClankDB;AUTO_SERVER=TRUE;TRACE_LEVEL_FILE=2;TRACE_LEVEL_SYSTEM_OUT=2;DB_CLOSE_DELAY=-1;", "GH", "");
+2022-03-14 11:49:26 jdbc[3]: 
+/*SQL #:1*/CALL READONLY();
+2022-03-14 11:49:26 database: connecting session #4 to C:/Users/CDA/Desktop/Projet/ClankArchive/data/ClankDB
+2022-03-14 11:49:26 jdbc[4]: 
+/*SQL */SET DB_CLOSE_DELAY -1;
+2022-03-14 11:49:26 jdbc[4]: 
+/*SQL */SET AUTO_SERVER TRUE;
+2022-03-14 11:49:26 jdbc[4]: 
+/*SQL */SET TRACE_LEVEL_SYSTEM_OUT 2;
+2022-03-14 11:49:26 jdbc[4]: 
+/*SQL */SET TRACE_LEVEL_FILE 2;
+2022-03-14 11:49:26 jdbc[4]: 
+/**/Connection conn2 = DriverManager.getConnection("jdbc:h2:file:./data/ClankDB;AUTO_SERVER=TRUE;TRACE_LEVEL_FILE=2;TRACE_LEVEL_SYSTEM_OUT=2;DB_CLOSE_DELAY=-1;", "GH", "");
+2022-03-14 11:49:26 jdbc[4]: 
+/*SQL #:1*/CALL READONLY();
+2022-03-14 11:49:26 database: connecting session #5 to C:/Users/CDA/Desktop/Projet/ClankArchive/data/ClankDB
+2022-03-14 11:49:26 jdbc[5]: 
+/*SQL */SET DB_CLOSE_DELAY -1;
+2022-03-14 11:49:26 jdbc[5]: 
+/*SQL */SET AUTO_SERVER TRUE;
+2022-03-14 11:49:26 jdbc[5]: 
+/*SQL */SET TRACE_LEVEL_SYSTEM_OUT 2;
+2022-03-14 11:49:26 jdbc[5]: 
+/*SQL */SET TRACE_LEVEL_FILE 2;
+2022-03-14 11:49:26 jdbc[5]: 
+/**/Connection conn3 = DriverManager.getConnection("jdbc:h2:file:./data/ClankDB;AUTO_SERVER=TRUE;TRACE_LEVEL_FILE=2;TRACE_LEVEL_SYSTEM_OUT=2;DB_CLOSE_DELAY=-1;", "GH", "");
+2022-03-14 11:49:26 jdbc[5]: 
+/*SQL #:1*/CALL READONLY();
+2022-03-14 11:49:26 database: connecting session #6 to C:/Users/CDA/Desktop/Projet/ClankArchive/data/ClankDB
+2022-03-14 11:49:26 jdbc[6]: 
+/*SQL */SET DB_CLOSE_DELAY -1;
+2022-03-14 11:49:26 jdbc[6]: 
+/*SQL */SET AUTO_SERVER TRUE;
+2022-03-14 11:49:26 jdbc[6]: 
+/*SQL */SET TRACE_LEVEL_SYSTEM_OUT 2;
+2022-03-14 11:49:26 jdbc[6]: 
+/*SQL */SET TRACE_LEVEL_FILE 2;
+2022-03-14 11:49:26 jdbc[6]: 
+/**/Connection conn4 = DriverManager.getConnection("jdbc:h2:file:./data/ClankDB;AUTO_SERVER=TRUE;TRACE_LEVEL_FILE=2;TRACE_LEVEL_SYSTEM_OUT=2;DB_CLOSE_DELAY=-1;", "GH", "");
+2022-03-14 11:49:26 jdbc[6]: 
+/*SQL #:1*/CALL READONLY();
+2022-03-14 11:49:26 database: connecting session #7 to C:/Users/CDA/Desktop/Projet/ClankArchive/data/ClankDB
+2022-03-14 11:49:26 jdbc[7]: 
+/*SQL */SET DB_CLOSE_DELAY -1;
+2022-03-14 11:49:26 jdbc[7]: 
+/*SQL */SET AUTO_SERVER TRUE;
+2022-03-14 11:49:26 jdbc[7]: 
+/*SQL */SET TRACE_LEVEL_SYSTEM_OUT 2;
+2022-03-14 11:49:26 jdbc[7]: 
+/*SQL */SET TRACE_LEVEL_FILE 2;
+2022-03-14 11:49:26 jdbc[7]: 
+/**/Connection conn5 = DriverManager.getConnection("jdbc:h2:file:./data/ClankDB;AUTO_SERVER=TRUE;TRACE_LEVEL_FILE=2;TRACE_LEVEL_SYSTEM_OUT=2;DB_CLOSE_DELAY=-1;", "GH", "");
+2022-03-14 11:49:26 jdbc[7]: 
+/*SQL #:1*/CALL READONLY();
+2022-03-14 11:49:26 database: connecting session #8 to C:/Users/CDA/Desktop/Projet/ClankArchive/data/ClankDB
+2022-03-14 11:49:26 jdbc[8]: 
+/*SQL */SET DB_CLOSE_DELAY -1;
+2022-03-14 11:49:26 jdbc[8]: 
+/*SQL */SET AUTO_SERVER TRUE;
+2022-03-14 11:49:26 jdbc[8]: 
+/*SQL */SET TRACE_LEVEL_SYSTEM_OUT 2;
+2022-03-14 11:49:26 jdbc[8]: 
+/*SQL */SET TRACE_LEVEL_FILE 2;
+2022-03-14 11:49:26 jdbc[8]: 
+/**/Connection conn6 = DriverManager.getConnection("jdbc:h2:file:./data/ClankDB;AUTO_SERVER=TRUE;TRACE_LEVEL_FILE=2;TRACE_LEVEL_SYSTEM_OUT=2;DB_CLOSE_DELAY=-1;", "GH", "");
+2022-03-14 11:49:26 jdbc[8]: 
+/*SQL #:1*/CALL READONLY();
+2022-03-14 11:49:26 database: connecting session #9 to C:/Users/CDA/Desktop/Projet/ClankArchive/data/ClankDB
+2022-03-14 11:49:26 jdbc[9]: 
+/*SQL */SET DB_CLOSE_DELAY -1;
+2022-03-14 11:49:26 jdbc[9]: 
+/*SQL */SET AUTO_SERVER TRUE;
+2022-03-14 11:49:26 jdbc[9]: 
+/*SQL */SET TRACE_LEVEL_SYSTEM_OUT 2;
+2022-03-14 11:49:26 jdbc[9]: 
+/*SQL */SET TRACE_LEVEL_FILE 2;
+2022-03-14 11:49:26 jdbc[9]: 
+/**/Connection conn7 = DriverManager.getConnection("jdbc:h2:file:./data/ClankDB;AUTO_SERVER=TRUE;TRACE_LEVEL_FILE=2;TRACE_LEVEL_SYSTEM_OUT=2;DB_CLOSE_DELAY=-1;", "GH", "");
+2022-03-14 11:49:26 jdbc[9]: 
+/*SQL #:1*/CALL READONLY();
+2022-03-14 11:49:26 database: connecting session #10 to C:/Users/CDA/Desktop/Projet/ClankArchive/data/ClankDB
+2022-03-14 11:49:26 jdbc[10]: 
+/*SQL */SET DB_CLOSE_DELAY -1;
+2022-03-14 11:49:26 jdbc[10]: 
+/*SQL */SET AUTO_SERVER TRUE;
+2022-03-14 11:49:26 jdbc[10]: 
+/*SQL */SET TRACE_LEVEL_SYSTEM_OUT 2;
+2022-03-14 11:49:26 jdbc[10]: 
+/*SQL */SET TRACE_LEVEL_FILE 2;
+2022-03-14 11:49:26 jdbc[10]: 
+/**/Connection conn8 = DriverManager.getConnection("jdbc:h2:file:./data/ClankDB;AUTO_SERVER=TRUE;TRACE_LEVEL_FILE=2;TRACE_LEVEL_SYSTEM_OUT=2;DB_CLOSE_DELAY=-1;", "GH", "");
+2022-03-14 11:49:26 jdbc[10]: 
+/*SQL #:1*/CALL READONLY();
+2022-03-14 11:49:26 database: connecting session #11 to C:/Users/CDA/Desktop/Projet/ClankArchive/data/ClankDB
+2022-03-14 11:49:26 jdbc[11]: 
+/*SQL */SET DB_CLOSE_DELAY -1;
+2022-03-14 11:49:26 jdbc[11]: 
+/*SQL */SET AUTO_SERVER TRUE;
+2022-03-14 11:49:26 jdbc[11]: 
+/*SQL */SET TRACE_LEVEL_SYSTEM_OUT 2;
+2022-03-14 11:49:26 jdbc[11]: 
+/*SQL */SET TRACE_LEVEL_FILE 2;
+2022-03-14 11:49:26 jdbc[11]: 
+/**/Connection conn9 = DriverManager.getConnection("jdbc:h2:file:./data/ClankDB;AUTO_SERVER=TRUE;TRACE_LEVEL_FILE=2;TRACE_LEVEL_SYSTEM_OUT=2;DB_CLOSE_DELAY=-1;", "GH", "");
+2022-03-14 11:49:26 jdbc[11]: 
+/*SQL #:1*/CALL READONLY();
+2022-03-14 11:49:26 database: connecting session #12 to C:/Users/CDA/Desktop/Projet/ClankArchive/data/ClankDB
+2022-03-14 11:49:26 jdbc[12]: 
+/*SQL */SET DB_CLOSE_DELAY -1;
+2022-03-14 11:49:26 jdbc[12]: 
+/*SQL */SET AUTO_SERVER TRUE;
+2022-03-14 11:49:26 jdbc[12]: 
+/*SQL */SET TRACE_LEVEL_SYSTEM_OUT 2;
+2022-03-14 11:49:26 jdbc[12]: 
+/*SQL */SET TRACE_LEVEL_FILE 2;
+2022-03-14 11:49:26 jdbc[12]: 
+/**/Connection conn10 = DriverManager.getConnection("jdbc:h2:file:./data/ClankDB;AUTO_SERVER=TRUE;TRACE_LEVEL_FILE=2;TRACE_LEVEL_SYSTEM_OUT=2;DB_CLOSE_DELAY=-1;", "GH", "");
+2022-03-14 11:49:26 jdbc[12]: 
+/*SQL #:1*/CALL READONLY();
+2022-03-14 11:49:26 jdbc[3]: 
+/*SQL */;
+2022-03-14 11:49:26 jdbc[3]: 
+/*SQL */;
+2022-03-14 11:49:26 jdbc[3]: 
+/*SQL */;
+2022-03-14 11:49:26 jdbc[3]: 
+/*SQL */;
+2022-03-14 11:49:27 jdbc[3]: 
+/*SQL l:78 #:4 t:3*/SELECT NAME, VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME IN (?, ?, ?, ?) {1: 'MODE', 2: 'DATABASE_TO_UPPER', 3: 'DATABASE_TO_LOWER', 4: 'CASE_INSENSITIVE_IDENTIFIERS'};
+2022-03-14 11:49:27 jdbc[3]: 
+/*SQL #:1*/CALL DATABASE();
+2022-03-14 11:49:27 jdbc[3]: 
+/*SQL t:2*/drop table if exists developer CASCADE;
+2022-03-14 11:49:27 jdbc[3]: 
+/*SQL */drop table if exists developer_games CASCADE;
+2022-03-14 11:49:27 jdbc[3]: 
+/*SQL */drop table if exists editor CASCADE;
+2022-03-14 11:49:27 jdbc[3]: 
+/*SQL */drop table if exists game CASCADE;
+2022-03-14 11:49:27 jdbc[3]: 
+/*SQL */drop table if exists hero CASCADE;
+2022-03-14 11:49:27 jdbc[3]: 
+/*SQL */drop table if exists hero_games CASCADE;
+2022-03-14 11:49:27 jdbc[3]: 
+/*SQL */drop table if exists review CASCADE;
+2022-03-14 11:49:27 jdbc[3]: 
+/*SQL */drop table if exists user CASCADE;
+2022-03-14 11:49:27 jdbc[3]: 
+/*SQL */create table developer (id_developer bigint generated by default as identity, developer_image varchar(255), developer_name varchar(255), primary key (id_developer));
+2022-03-14 11:49:27 jdbc[3]: 
+/*SQL */create table developer_games (developers_id_developer bigint not null, games_id_game bigint not null);
+2022-03-14 11:49:27 jdbc[3]: 
+/*SQL */create table editor (id_editor bigint generated by default as identity, editor_image varchar(255), editor_name varchar(255), game_id_game bigint, primary key (id_editor));
+2022-03-14 11:49:27 jdbc[3]: 
+/*SQL */create table game (id_game bigint generated by default as identity, age_restriction integer not null, game_image varchar(255), game_name varchar(255), game_summary varchar(255), release_date timestamp, primary key (id_game));
+2022-03-14 11:49:27 jdbc[3]: 
+/*SQL */create table hero (id_hero bigint generated by default as identity, hero_image varchar(255), hero_name varchar(255), hero_summary varchar(255), primary key (id_hero));
+2022-03-14 11:49:27 jdbc[3]: 
+/*SQL */create table hero_games (heroes_id_hero bigint not null, games_id_game bigint not null);
+2022-03-14 11:49:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "CREATE TABLE REVIEW (ID_REVIEW BIGINT GENERATED BY DEFAULT AS IDENTITY, LIKE[*] BOOLEAN NOT NULL, REVIEWS VARCHAR(255), GAME_ID_GAME BIGINT, USER_ID_USER BIGINT, PRIMARY KEY (ID_REVIEW))"; attendu "identifier"
+Syntax error in SQL statement "CREATE TABLE REVIEW (ID_REVIEW BIGINT GENERATED BY DEFAULT AS IDENTITY, LIKE[*] BOOLEAN NOT NULL, REVIEWS VARCHAR(255), GAME_ID_GAME BIGINT, USER_ID_USER BIGINT, PRIMARY KEY (ID_REVIEW))"; expected "identifier"; SQL statement:
+create table review (id_review bigint generated by default as identity, like boolean not null, reviews varchar(255), game_id_game bigint, user_id_user bigint, primary key (id_review)) [42001-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.getSyntaxError(DbException.java:243)
+	at org.h2.command.Parser.readColumnIdentifier(Parser.java:4976)
+	at org.h2.command.Parser.parseTableColumnDefinition(Parser.java:8437)
+	at org.h2.command.Parser.parseCreateTable(Parser.java:8379)
+	at org.h2.command.Parser.parseCreate(Parser.java:6276)
+	at org.h2.command.Parser.parsePrepared(Parser.java:903)
+	at org.h2.command.Parser.parse(Parser.java:843)
+	at org.h2.command.Parser.parse(Parser.java:815)
+	at org.h2.command.Parser.prepareCommand(Parser.java:738)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:212)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:201)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:458)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:442)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:325)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:169)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:138)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:124)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:164)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:81)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.project.clankarchive.ClankArchiveApplication.main(ClankArchiveApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2022-03-14 11:49:27 jdbc[3]: 
+/*SQL */create table user (id_user bigint generated by default as identity, age integer not null, birth_date timestamp, email varchar(255), password varchar(255), username varchar(255), primary key (id_user));
+2022-03-14 11:49:27 jdbc[3]: 
+/*SQL t:5*/alter table developer_games add constraint FKps20uagral8it8tyxs082m41t foreign key (games_id_game) references game;
+2022-03-14 11:49:27 jdbc[3]: 
+/*SQL t:1*/alter table developer_games add constraint FKn871vbuwuf8pkeyq8ckeok5yo foreign key (developers_id_developer) references developer;
+2022-03-14 11:49:27 jdbc[3]: 
+/*SQL */alter table editor add constraint FKnu354dqg7ddpfc5160g5hvbgs foreign key (game_id_game) references game;
+2022-03-14 11:49:27 jdbc[3]: 
+/*SQL */alter table hero_games add constraint FK4a2vny0ashniksytjbi007y17 foreign key (games_id_game) references game;
+2022-03-14 11:49:27 jdbc[3]: 
+/*SQL t:1*/alter table hero_games add constraint FK37cc00992dkps3b2c19b5j556 foreign key (heroes_id_hero) references hero;
+2022-03-14 11:49:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "REVIEW" non trouvée
+Table "REVIEW" not found; SQL statement:
+alter table review add constraint FKdoooh0t46rpl7c4gmj910crrw foreign key (game_id_game) references game [42102-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.command.ddl.AlterTableAddConstraint.tryUpdate(AlterTableAddConstraint.java:108)
+	at org.h2.command.ddl.AlterTableAddConstraint.update(AlterTableAddConstraint.java:78)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:198)
+	at org.h2.command.Command.executeUpdate(Command.java:251)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:228)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:201)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:458)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:442)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:389)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:169)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:138)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:124)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:164)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:81)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.project.clankarchive.ClankArchiveApplication.main(ClankArchiveApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2022-03-14 11:49:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "REVIEW" non trouvée
+Table "REVIEW" not found; SQL statement:
+alter table review add constraint FKlb5psdq54mm5ueaj63yb4rkcv foreign key (user_id_user) references user [42102-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.command.ddl.AlterTableAddConstraint.tryUpdate(AlterTableAddConstraint.java:108)
+	at org.h2.command.ddl.AlterTableAddConstraint.update(AlterTableAddConstraint.java:78)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:198)
+	at org.h2.command.Command.executeUpdate(Command.java:251)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:228)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:201)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:458)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:442)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:389)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:169)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:138)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:124)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:164)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:81)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.project.clankarchive.ClankArchiveApplication.main(ClankArchiveApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2022-03-14 11:50:14 database: closing C:/Users/CDA/Desktop/Projet/ClankArchive/data/ClankDB from shutdown hook
+2022-03-14 11:50:14 database: disconnecting session #3
+2022-03-14 11:50:14 database: disconnected session #3
+2022-03-14 11:50:14 database: disconnecting session #4
+2022-03-14 11:50:14 database: disconnected session #4
+2022-03-14 11:50:14 database: disconnecting session #5
+2022-03-14 11:50:14 database: disconnected session #5
+2022-03-14 11:50:14 database: disconnecting session #6
+2022-03-14 11:50:14 database: disconnected session #6
+2022-03-14 11:50:14 database: disconnecting session #7
+2022-03-14 11:50:14 database: disconnected session #7
+2022-03-14 11:50:14 database: disconnecting session #8
+2022-03-14 11:50:14 database: disconnected session #8
+2022-03-14 11:50:14 database: disconnecting session #9
+2022-03-14 11:50:14 database: disconnected session #9
+2022-03-14 11:50:14 database: disconnecting session #10
+2022-03-14 11:50:14 database: disconnected session #10
+2022-03-14 11:50:14 database: disconnecting session #11
+2022-03-14 11:50:14 database: disconnected session #11
+2022-03-14 11:50:14 database: disconnecting session #12
+2022-03-14 11:50:14 database: closing C:/Users/CDA/Desktop/Projet/ClankArchive/data/ClankDB
+2022-03-14 11:50:15 database: closed
