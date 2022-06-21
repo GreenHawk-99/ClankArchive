@@ -1,4 +1,4 @@
-package com.project.clankarchive.model;
+package com.project.clankarchive.models.entities;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

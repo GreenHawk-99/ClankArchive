@@ -1,4 +1,4 @@
-package com.project.clankarchive.config;
+package com.project.clankarchive.configurations;
 
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;

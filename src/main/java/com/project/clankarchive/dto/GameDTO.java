@@ -1,13 +1,11 @@
 package com.project.clankarchive.dto;
 
-import com.project.clankarchive.model.Developer;
-import com.project.clankarchive.model.Editor;
-import com.project.clankarchive.model.Review;
+import com.project.clankarchive.models.entities.Developer;
+import com.project.clankarchive.models.entities.Editor;
+import com.project.clankarchive.models.entities.Review;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.persistence.*;
 import java.util.Date;
 import java.util.List;
 

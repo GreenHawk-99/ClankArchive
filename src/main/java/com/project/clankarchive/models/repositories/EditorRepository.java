@@ -1,6 +1,6 @@
-package com.project.clankarchive.repository;
+package com.project.clankarchive.models.repositories;
 
-import com.project.clankarchive.model.Editor;
+import com.project.clankarchive.models.entities.Editor;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

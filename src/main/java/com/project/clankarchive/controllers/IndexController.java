@@ -1,4 +1,4 @@
-package com.project.clankarchive.controller;
+package com.project.clankarchive.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

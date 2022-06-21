@@ -28,7 +28,11 @@ class Game{
 -gameSummary : String
 -ageRestriction : int
 }
-abstract class Article{
+class Article{
+-idArticle : Long
+}
+class Categorie{
+-idCategorie : Long
 }
 class Hero{
 -idHero : Long
@@ -66,20 +70,9 @@ class Developer{
 }
 
 'Class Diagram - Relation
-skinparam groupInheritance 2
-
 Role "*" - "*" User :"\t\t"
-User - Review
 
 Game - Article
-
-Article --- Hero
-Article --- Weapon
-Article --- Gadget
-Article --- Enemy
-Article --- Vehicle
-Article --- Location
-Article --- Planet
 
 Game "*" -- "*" Editor :"\t\t"
 Game "*" -- "*" Developer :"\t\t"

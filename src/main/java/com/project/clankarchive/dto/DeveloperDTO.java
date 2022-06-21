@@ -1,11 +1,9 @@
 package com.project.clankarchive.dto;
 
-import com.project.clankarchive.model.Game;
+import com.project.clankarchive.models.entities.Game;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.persistence.*;
 import java.util.List;
 
 @Getter

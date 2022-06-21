@@ -1,4 +1,6 @@
 @startuml
+!theme hacker
+
 left to right direction
 actor "Visitor" as visitor
 actor "User" as user
@@ -10,7 +12,7 @@ rectangle MyApp {
   usecase "Consult heroes list" as UC6
   usecase "Create game card" as UC7
   usecase "Create hero card" as UC8
-  usecase "Create a review" as UC9
+
   usecase "Manage users" as UC10
   usecase "Manage games & heroes cards" as UC11
   usecase "Manage reviews" as UC12
@@ -19,9 +21,8 @@ visitor <|- user
 visitor --> UC1
 visitor --> UC5
 visitor --> UC6
-user --> UC7
-user --> UC8
-user --> UC9
+user ---> UC7
+user ---> UC8
 UC2 ..> UC5
 UC2 ..> UC6
 UC5 <-- admin

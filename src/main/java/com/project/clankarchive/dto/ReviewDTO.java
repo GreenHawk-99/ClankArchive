@@ -1,7 +1,7 @@
 package com.project.clankarchive.dto;
 
-import com.project.clankarchive.model.Game;
-import com.project.clankarchive.model.User;
+import com.project.clankarchive.models.entities.Game;
+import com.project.clankarchive.models.entities.User;
 import lombok.Getter;
 import lombok.Setter;
 

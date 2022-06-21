@@ -1,4 +1,4 @@
-package com.project.clankarchive.exception;
+package com.project.clankarchive.exceptions;
 
 public class UserNotFoundException extends RuntimeException{
 }
