@@ -20,10 +20,4 @@ public class Hero {
     private String heroSummary;
     @ManyToMany
     private List<Game> games;
-
-    public Hero(String heroName, String heroImage, String heroSummary) {
-        this.heroName = heroName;
-        this.heroImage = heroImage;
-        this.heroSummary = heroSummary;
-    }
 }

@@ -20,16 +20,4 @@ public class User {
     private String email;
     private String password;
     private Date birthDate;
-    private int age;
-
-    @OneToMany(mappedBy = "user")
-    private List<Review> reviews;
-
-    public User(String username, String email, String password, Date birthDate, int age) {
-        this.username = username;
-        this.email = email;
-        this.password = password;
-        this.birthDate = birthDate;
-        this.age = age;
-    }
 }

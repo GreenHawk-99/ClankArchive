@@ -1,0 +1,28 @@
+@startuml
+!theme hacker
+
+start
+
+floating note left: Visitor is register on the application
+
+repeat :Visitor put his IDs;
+
+backward: Invalid IDs;
+repeat while (Valid IDs?) is (No) not (Yes)
+
+:User is logged;
+
+fork
+  :User;
+fork again
+  :Mod;
+  fork again
+    :Admin;
+end merge
+
+:Show correspondent services and informations;
+
+stop
+floating note right: The user i now logged into the application
+
+@enduml

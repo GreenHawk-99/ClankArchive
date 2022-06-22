@@ -15,12 +15,10 @@ public class GameDTO {
     private Long idGame;
     private String gameName;
     private String gameImage;
-    private String gameSummary;
     private Date releaseDate;
     private int ageRestriction;
+    private String gameSummary;
 
-    private List<Review> reviews;
-    private List<Hero> heroes;
     private List<Developer> developers;
     private List<Editor> editors;
 }

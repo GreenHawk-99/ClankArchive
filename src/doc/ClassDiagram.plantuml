@@ -1,0 +1,128 @@
+@startuml
+!theme hacker
+
+'Class Diagram - Class
+class User {
+-idUser : Long
+-username : String
+-email : String
+-birthDate : date
+}
+class Role {
+-idRole : Long
+-roleName : String
+}
+'class Review{
+'-idReview : Long
+'-like : boolean
+'-review : String
+'}
+class Game {
+-idGame : Long
+-gameName : String
+-gameImage : String
+-releaseDate : date
+-ageRestriction : int
+-gameSummary : String
+}
+abstract class Article {
+}
+class Hero {
+-idHero : Long
+-heroName : String
+-heroImage : String
+-heroSummary : String
+}
+class Weapon {
+-idWeapon : Long
+-weaponName : String
+-weaponImage : String
+-weaponPrice : String
+-weaponSummary : String
+}
+class Gadget {
+-idGadget : Long
+-gadgetName : String
+-gadgetSummary : String
+}
+class Enemy {
+-idEnemy : Long
+-enemyName : String
+-enemySummary : String
+}
+class Vehicle {
+-idVehicle : Long
+-vehiculeName : String
+-vehiculeSummary : String
+}
+class Organistion {
+-idOrganisation : Long
+-organisationName : String
+-organisationImage : String
+-organisationSummary : String
+}
+class Location {
+-idLocation : Long
+-locationName : String
+-locationSummary : String
+}
+class Planet {
+-idPlanet : Long
+-planetName : String
+-planetImage : String
+-planetSummary : String
+}
+class Genre {
+-idGenre : Long
+-genreName : String
+}
+class Platform {
+-idPlatform : Long
+-platformName : String
+}
+class Editor {
+-idEditor : Long
+-editorName : String
+-editorImage : String
+}
+class Developer {
+-idDeveloper : Long
+-developerName : String
+-developerImage : String
+}
+class Type {
+-idType : Long
+-typeName : String
+}
+
+'Class Diagram - Relation
+skinparam groupInheritance 1
+
+Role "*" - "*" User :"\t\t"
+'User - Review
+
+Game "*" - "*" Article :"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+
+Article <|--- Hero
+Article <|--- Weapon
+Article <|--- Gadget
+Article <|---- Enemy
+Article <|--- Vehicle
+Article <|--- Organistion
+Article <|---- Location
+Article <|---- Planet
+
+Weapon "*" -- "1" Organistion
+Gadget "*" -- "1" Organistion
+
+Enemy "*" - "*" Location
+Location "*" - "*" Planet
+
+Platform "*" -- "*" Game :"\t\t"
+Genre "*" -- "*" Game :"\t\t"
+Game "*" -- "1" Editor :"\t\t"
+Game "*" -- "*" Developer :"\t\t"
+Type "1" - "*" Game :"\t\t"
+
+'hide circle
+@enduml

@@ -18,24 +18,12 @@ public class Game {
     private Long idGame;
     private String gameName;
     private String gameImage;
-    private String gameSummary;
     private Date releaseDate;
     private int ageRestriction;
+    private String gameSummary;
 
-    @OneToMany(mappedBy = "game")
-    private List<Review> reviews;
-    @ManyToMany(mappedBy = "games")
-    private List<Hero> heroes;
     @ManyToMany(mappedBy = "games")
     private List<Developer> developers;
     @OneToMany(mappedBy = "game")
     private List<Editor> editors;
-
-    public Game(String gameName, String gameImage, String gameSummary, Date releaseDate, int ageRestriction) {
-        this.gameName = gameName;
-        this.gameImage = gameImage;
-        this.gameSummary = gameSummary;
-        this.releaseDate = releaseDate;
-        this.ageRestriction = ageRestriction;
-    }
 }

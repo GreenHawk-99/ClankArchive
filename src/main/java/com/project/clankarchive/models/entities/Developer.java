@@ -20,9 +20,4 @@ public class Developer {
 
     @ManyToMany
     private List<Game> games;
-
-    public Developer(String developerName, String developerImage, List<Game> games) {
-        this.developerName = developerName;
-        this.developerImage = developerImage;
-    }
 }

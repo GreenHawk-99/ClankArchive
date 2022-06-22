@@ -1,6 +1,5 @@
 package com.project.clankarchive.dto;
 
-import com.project.clankarchive.models.entities.Review;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -15,7 +14,4 @@ public class UserDTO {
     private String email;
     private String password;
     private Date birthDate;
-    private int age;
-
-    private List<Review> reviews;
 }

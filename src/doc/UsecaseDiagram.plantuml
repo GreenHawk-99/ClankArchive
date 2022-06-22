@@ -1,0 +1,62 @@
+@startuml
+!theme hacker
+
+left to right direction
+skinparam actorStyle awesome
+actor "Visitor" as visitor
+actor "User" as user
+actor "Moderator" as mod
+actor "Admin" as admin
+rectangle ClankArchive {
+  usecase "Create account" as UC1
+  usecase "Log in" as UC2
+  usecase "Consult games list" as UC5
+  usecase "Consult heroes list" as UC6
+  usecase "Create game card" as UC7
+  usecase "Create hero card" as UC8
+
+  usecase "Manage users" as UC10
+  usecase "Manage games cards" as UC11
+  usecase "Manage heroes cards" as UC12
+  usecase "Manage weapons cards" as UC13
+  usecase "Manage gadgets cards" as UC14
+  usecase "Manage enemies cards" as UC15
+  usecase "Manage locations cards" as UC16
+  usecase "Manage planets cards" as UC17
+  usecase "Manage organisations cards" as UC18
+  usecase "Manage genres cards" as UC19
+  usecase "Manage platforms cards" as UC20
+  usecase "Manage developers cards" as UC21
+  usecase "Manage editors cards" as UC22
+  usecase "Manage types cards" as UC23
+  'usecase "Manage reviews" as UC12
+}
+visitor <|- user
+user <|- mod
+
+visitor --> UC1
+visitor --> UC5
+visitor --> UC6
+
+mod ---> UC7
+mod ---> UC8
+
+UC5 <.. UC2 :extend
+UC6 <.. UC2 :extend
+
+UC10 <----- admin
+UC11 <----- admin
+UC12 <----- admin
+UC13 <----- admin
+UC14 <----- admin
+UC15 <----- admin
+UC16 <----- admin
+UC17 <----- admin
+UC18 <----- admin
+UC19 <----- admin
+UC20 <----- admin
+UC21 <----- admin
+UC22 <----- admin
+UC23 <----- admin
+'UC12 <-- admin
+@enduml
