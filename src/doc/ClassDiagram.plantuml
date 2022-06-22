@@ -1,5 +1,5 @@
 @startuml
-!theme hacker
+'!theme hacker
 
 'Class Diagram - Class
 class User {
@@ -25,53 +25,6 @@ class Game {
 -ageRestriction : int
 -gameSummary : String
 }
-abstract class Article {
-}
-class Hero {
--idHero : Long
--heroName : String
--heroImage : String
--heroSummary : String
-}
-class Weapon {
--idWeapon : Long
--weaponName : String
--weaponImage : String
--weaponPrice : String
--weaponSummary : String
-}
-class Gadget {
--idGadget : Long
--gadgetName : String
--gadgetSummary : String
-}
-class Enemy {
--idEnemy : Long
--enemyName : String
--enemySummary : String
-}
-class Vehicle {
--idVehicle : Long
--vehiculeName : String
--vehiculeSummary : String
-}
-class Organistion {
--idOrganisation : Long
--organisationName : String
--organisationImage : String
--organisationSummary : String
-}
-class Location {
--idLocation : Long
--locationName : String
--locationSummary : String
-}
-class Planet {
--idPlanet : Long
--planetName : String
--planetImage : String
--planetSummary : String
-}
 class Genre {
 -idGenre : Long
 -genreName : String
@@ -93,6 +46,57 @@ class Developer {
 class Type {
 -idType : Long
 -typeName : String
+}
+
+'-------------------
+
+abstract class Article {
+-idArticle : Long
+}
+class Hero {
+'-idHero : Long
+-heroName : String
+-heroImage : String
+-heroSummary : String
+}
+class Weapon {
+'-idWeapon : Long
+-weaponName : String
+-weaponImage : String
+-weaponPrice : String
+-weaponSummary : String
+}
+class Gadget {
+'-idGadget : Long
+-gadgetName : String
+-gadgetSummary : String
+}
+class Enemy {
+'-idEnemy : Long
+-enemyName : String
+-enemySummary : String
+}
+class Vehicle {
+'-idVehicle : Long
+-vehiculeName : String
+-vehiculeSummary : String
+}
+class Organistion {
+'-idOrganisation : Long
+-organisationName : String
+-organisationImage : String
+-organisationSummary : String
+}
+class Location {
+'-idLocation : Long
+-locationName : String
+-locationSummary : String
+}
+class Planet {
+'-idPlanet : Long
+-planetName : String
+-planetImage : String
+-planetSummary : String
 }
 
 'Class Diagram - Relation

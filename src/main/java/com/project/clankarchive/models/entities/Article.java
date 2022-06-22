@@ -5,22 +5,21 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
+
 import java.util.List;
 
+import static javax.persistence.DiscriminatorType.STRING;
 @Entity
 @Getter
 @Setter
 @NoArgsConstructor
-@DiscriminatorValue(value = "Formateur")
-public class Hero extends Article {
-    /*
+@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
+@DiscriminatorColumn(name = "ARTICLE", discriminatorType=STRING)
+public abstract class Article {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long idHero;
-    */
-    private String heroName;
-    private String heroImage;
-    private String heroSummary;
+    private Long idArticle;
+
     @ManyToMany
     private List<Game> games;
 }

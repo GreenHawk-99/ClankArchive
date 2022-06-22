@@ -17,6 +17,6 @@ public class Editor {
     private String editorName;
     private String editorImage;
 
-    @ManyToOne
+    @OneToMany
     private Game game;
 }

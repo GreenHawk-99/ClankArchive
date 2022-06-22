@@ -23,7 +23,15 @@ public class Game {
     private String gameSummary;
 
     @ManyToMany(mappedBy = "games")
+    private List<Article> articles;
+    @ManyToMany(mappedBy = "games")
     private List<Developer> developers;
-    @OneToMany(mappedBy = "game")
-    private List<Editor> editors;
+    @ManyToOne
+    private Editor editor;
+    @ManyToMany(mappedBy = "games")
+    private List<Genre> genres;
+    @ManyToMany(mappedBy = "games")
+    private List<Platform> platforms;
+    @ManyToOne
+    private Type type;
 }
